@@ -1,6 +1,10 @@
-<?php>
 
+<!DOCTYPE html>
+<html lang="pt">
 <head>
+<?php
+include_once('topo.php');include_once('menu.php');	
+	?>
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,13 +15,12 @@
 </head>
 
 <style>
- 
- nav {
+  nav {
   float: left;
   width: auto;
   height:auto; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 15px;
+  padding: 20px;
 }
 header { 
   background-color: #666;
@@ -27,39 +30,37 @@ header {
   color: white;
   opacity: 0.8;
 }
-
 img{
   float: right;
   width: 700px;
   height: 260px;
 }
-
-
 </style>
 <body>
+ 
+  
 
-  
-<div class="jumbotron text-center">
-  
-  <div class="container">
-    <h1>Estude na quarentena!</h1>
-    
-  </div>
-</div>
-  
+<img src="https://canaldoensino.com.br/blog/wp-content/uploads/2017/09/foco-estudos.jpg" alt="estudo">
 <div class="container">
   <div class="row">
-    <div >
-      <h3>Todos os Cursos são gratuitos e não são fornecidos por nós.</h3>
-       <h3> Só queremos repassar informações úteis para as pessoas :D</h3>
-        <p>Maioria dos cursos são pela udemy.</p>
-      <p>Quase todos são para iniciantes e caso goste, tem vários a venda e muitas promoções!!</p>
-    </div>
-    <img src="https://media.tenor.com/images/09810950a6f4253604b28436264a5669/tenor.gif" alt="banana">
-  </div>
-  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
-</div>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <br>
+          <h3>Cursos udemy:</h3>
+          <b>Desenhista / AutoCAD: <a href="url">https://www.udemy.com/course/desenhista-para-topografia-nivel-1-autocad//</a></b> <br>
+          <b>AutoCAD 2019 - Curso Básico: <a href="url">https://www.udemy.com/course/autocad-2019-curso-basico-completo/</a></b> <br>
+          <b>SketchUp para Interiores - Websérie Gratuita: <a href="url">https://www.udemy.com/course/sketchup-para-interiores/ </a></b>
+         
+        </div>
+    
+      
+        
+     
+  
+        <?php
+	include_once('rodape.php');
+	?>
+  
 </body>
 </html>
-<?>

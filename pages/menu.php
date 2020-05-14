@@ -13,10 +13,10 @@
 <nav stylesheet= "background-color= lightblue" >
     <div class="menu">
    <ul class="nav flex-column">
-    <li><a href="principal.php">HOME</a></li>
-    <li ><a href="page2.html">Cursos de T.I.</a></li>
-    <li><a href="page3.html">Cursos de Design</a></li>
-   <li><a href="page4.html">Cursos de Arquitetura</a></li>
+    <li><a href="index.php">HOME</a></li>
+    <li ><a href="page2.php">Cursos de T.I.</a></li>
+    <li><a href="page3.php">Cursos de Design</a></li>
+   <li><a href="page4.php">Cursos de Arquitetura</a></li>
    <li><a href="faleconosco.php">Fale conosco</a></li>
    </ul>
  </nav>

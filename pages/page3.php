@@ -1,5 +1,5 @@
-<?php>
-
+<!DOCTYPE html>
+<html lang="pt">
 <head>
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
@@ -11,13 +11,12 @@
 </head>
 
 <style>
- 
- nav {
+  nav {
   float: left;
   width: auto;
   height:auto; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 15px;
+  padding: 20px;
 }
 header { 
   background-color: #666;
@@ -33,33 +32,25 @@ img{
   width: 700px;
   height: 260px;
 }
-
-
 </style>
-<body>
-
-  
-<div class="jumbotron text-center">
-  
-  <div class="container">
-    <h1>Estude na quarentena!</h1>
-    
-  </div>
+<?php
+include_once('topo.php');include_once('menu.php');	
+	?>
+ 
 </div>
-  
+<img src="https://canaldoensino.com.br/blog/wp-content/uploads/2017/09/foco-estudos.jpg" alt="estudo">
 <div class="container">
   <div class="row">
-    <div >
-      <h3>Todos os Cursos são gratuitos e não são fornecidos por nós.</h3>
-       <h3> Só queremos repassar informações úteis para as pessoas :D</h3>
-        <p>Maioria dos cursos são pela udemy.</p>
-      <p>Quase todos são para iniciantes e caso goste, tem vários a venda e muitas promoções!!</p>
-    </div>
-    <img src="https://media.tenor.com/images/09810950a6f4253604b28436264a5669/tenor.gif" alt="banana">
+    <div class="col-sm-3">
+      <h3>Cursos udemy:</h3>
+      <b>3 Exercícios de Motion Graphics no Blender 2.8: <a href="url">https://www.udemy.com/course/motion-graphics-exercicios-praticos-no-blender/</a></b> <br>
+      <b>Curso de Design Gráfico para Mídias Sociais com o Canva: <a href="url">https://www.udemy.com/course/curso-de-design-grafico-para-midias-sociais-com-o-canva/</a></b> <br>
+     
   </div>
-  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
-</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br> <br> <br> <br> <br> 
 
+<?php
+	include_once('rodape.php');
+	?>
 </body>
 </html>
-<?>
