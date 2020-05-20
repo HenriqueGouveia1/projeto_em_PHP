@@ -1,6 +1,9 @@
-<?php>
-
+<!DOCTYPE html>
+<html lang="pt">
 <head>
+<?php
+include_once('topo.php');include_once('menu.php');	
+	?>
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,28 +17,24 @@
 
 <body>
 
-  
-<div class="jumbotron text-center">
-  
-  <div class="container">
-    <h1>Estude na quarentena!</h1>
-    
-  </div>
-</div>
-  
+
 <div class="container">
   <div class="row">
-    <div >
-      <h3>Todos os Cursos são gratuitos e não são fornecidos por nós.</h3>
-       <h3> Só queremos repassar informações úteis para as pessoas :D</h3>
-        <p>Maioria dos cursos são pela udemy.</p>
-      <p>Quase todos são para iniciantes e caso goste, tem vários a venda e muitas promoções!!</p>
-    </div>
-    <img src="https://media.tenor.com/images/09810950a6f4253604b28436264a5669/tenor.gif" alt="banana">
+    <div class="col-sm-3">
+      <h3>Cursos udemy:</h3>
+      <p>3 Exercícios de Motion Graphics no Blender 2.8: <a href="url">https://www.udemy.com/course/motion-graphics-exercicios-praticos-no-blender/</a></p> <br>
+      <p>Curso de Design Gráfico para Mídias Sociais com o Canva: <a href="url">https://www.udemy.com/course/curso-de-design-grafico-para-midias-sociais-com-o-canva/</a></p> <br>
+     
   </div>
-  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
-</div>
-
+    
+      
+    </div>
+  
+  
+  
+  <?php
+	include_once('rodape.php');
+  ?>
+  </div>
 </body>
 </html>
-<?>

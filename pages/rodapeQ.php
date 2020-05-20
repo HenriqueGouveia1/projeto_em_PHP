@@ -24,6 +24,6 @@ html, body {height:100%;}
 
 <footer class="panel-footer text-center">
   <p>2020 &copy; Henrique Gouveia (Direitos abertos)</p>
-  <nav class="navbar-brand"><li><a href="quemSomos.php">Quem somos</a></li></nav>
+  
   
 </footer>

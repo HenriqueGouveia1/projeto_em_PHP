@@ -35,7 +35,7 @@
   </div>
   
   <?php
-		include_once('rodape.php');
+		include_once('rodapeQ.php');
 	?>
 </div>
 </body>

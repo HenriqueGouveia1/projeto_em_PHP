@@ -14,9 +14,9 @@
     <div class="menu">
    <ul class="nav flex-column">
     <li><a href="index.php">HOME</a></li>
-    <li ><a href="page2.php">Cursos de T.I.</a></li>
-    <li><a href="page3.php">Cursos de Design</a></li>
-   <li><a href="page4.php">Cursos de Arquitetura</a></li>
+    <li ><a href="cursosTI.php">Cursos de T.I.</a></li>
+    <li><a href="cursosDesign.php">Cursos de Design</a></li>
+   <li><a href="cursosArq.php">Cursos de Arquitetura</a></li>
    <li><a href="faleconosco.php">Fale conosco</a></li>
    </ul>
  </nav>
