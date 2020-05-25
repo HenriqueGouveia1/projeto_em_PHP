@@ -19,7 +19,7 @@
 
   <div class="jumbotron text-center">
   <h1>Olá, colega! <span style='font-size:100px;'>&#128563;</span> </h1>
-  <h2>Sou uma estudante que quer te ajudar!</h2> 
+  
 </div>
   
 <div class="container">

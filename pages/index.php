@@ -1,7 +1,7 @@
 <?php include "conecta.inc.php"; ?>
 <html>
 <head>
-    <title>MeuSite.com</title>
+    <title>cursos.com</title>
     <link rel="stylesheet" type="text/css" 
           href="bootstrap/css/bootstrap.css">
     

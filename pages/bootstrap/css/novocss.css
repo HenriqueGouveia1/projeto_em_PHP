@@ -3,7 +3,7 @@ header {
     margin-bottom: 10px;
 }
 .navbar-center{
-    background-color: azure;
+    background-color: rgb(60, 187, 187);
 }
 .col-serv{
     background-color: aliceblue;
@@ -19,12 +19,15 @@ header {
 nav {
  float: left;
   width: auto;
-  height:auto; /* only for demonstration, should be removed */
-  background: #ccc;
+  height: auto; /* only for demonstration, should be removed */
+  background: rgb(111, 180, 207);
+  opacity: 0.5;
   padding: 20px;
+  font-style: normal;
+  
 }
 header { 
-  background-color: #666;
+  background-color: rgb(57, 140, 151);
   padding: 14px;
   text-align: center;
   font-size: 35px;
@@ -37,6 +40,66 @@ img{
   height: 260px;
 }
 p{
+  font-size:15px;
   font-weight: bold;
+  color: white;
+}
 
+body{
+  background-color: lightcyan;
+  background-image: url(https://tecnolhar.com.br/wp-content/uploads/2019/07/5513705a7895aa9de7a97b0adf72d8b2.jpg);
+}
+
+nav a{
+  background-color: transparent;
+  opacity: inherit;
+  color: #000;
+  font-weight: bold;
+}
+a{
+  background-color: whitesmoke;
+  font-weight: normal;
+  color: black;
+  opacity: 0.5;
+}
+h1{
+  font-weight: bold;
+  font-size: 40;
+  background: space;
+  
+}
+h2{
+  font-weight: bold;
+  color: whitesmoke;
+  
+}
+footer a{
+  
+  color: #000;
+  font-weight: bold;
+}
+footer p{
+  opacity: 1;
+  color: #000;
+  font-weight: bold;
+}
+footer{
+  
+  opacity: 0.8;
+}
+
+#cursoudemy{
+  
+  background-repeat: no-repeat;
+  background-image: url(https://image.winudf.com/v2/image1/Y29tLnVkZW15LmFuZHJvaWQudWZnX2ljb25fMTU1NDU1MzYwM18wMzQ/icon.png?w=170&fakeurl=1);
+ background-position: right  
+}
+#laureate{
+  background-repeat: no-repeat;
+  background-image: url(https://www.agoracupom.com.br/wp-content/uploads/2018/08/ead-laureate.png);
+  background-position: right; 
+}
+
+footer{
+  opacity: 0.8;
 }

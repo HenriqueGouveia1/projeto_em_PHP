@@ -1,38 +1,23 @@
-<?php
-	include_once('topo.php');include_once('menu.php');
-	?>
-  <?php include "conecta.inc.php"; ?>
+<?php include "conecta.inc.php"; ?>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/novocss.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <title>Contato</title>
 </head>
 <body>
-<style>
- 
- nav {
+
+<div class="jumbotron text-center">
   
-  width: auto;
-  
-  background:#ccc;
-  padding: 15px;
-}
-header { 
-  background-color: #666;
-  padding: 14px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-  opacity: 0.8;
-}
-</style>
-<div class="container">
-  <h2>FALE CONOSCO</h2> 
-  <form  id="contactForm" action="?pg=contatodb.php" method="post">
+  <div class="container">
+    <h1>Fale conosco</h1>
+    
+  <form  id="contactForm" action="?pg=contatodb" method="post">
      
 	 Nome:<input type="text" class="form-control" name="nome" required="" data-validation-required-message=
    "Please enter your name."><br>
@@ -42,8 +27,6 @@ header {
 	 Mensagem:<textarea class="form-control" name="mensagem" rows="5" cols="10"></textarea><br><br>
 	 <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
-  <?php
-		include_once('rodape.php');
-	?>
+  
 </div>
 </html>

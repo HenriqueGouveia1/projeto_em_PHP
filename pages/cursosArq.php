@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-<?php
-include_once('topo.php');include_once('menu.php');	
-	?>
+
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,9 +18,9 @@ include_once('topo.php');include_once('menu.php');
 
 <div class="container">
   <div class="row">
-  <div class="col-sm-3">
+  <div class="col-sm-3" >
           <br>
-          <h3>Cursos udemy:</h3>
+          <h2 id="cursoudemy">Cursos udemy:</h2>
           <p>Desenhista / AutoCAD: <a href="url">https://www.udemy.com/course/desenhista-para-topografia-nivel-1-autocad//</a></p> <br>
           <p>AutoCAD 2019 - Curso Básico: <a href="url">https://www.udemy.com/course/autocad-2019-curso-basico-completo/</a></p> <br>
           <p>SketchUp para Interiores - Websérie Gratuita: <a href="url">https://www.udemy.com/course/sketchup-para-interiores/ </a></p>
@@ -31,9 +29,7 @@ include_once('topo.php');include_once('menu.php');
     </div>
     
       
-    </div>  <?php
-	include_once('rodape.php');
-	?>
+    </div>  
   </div>
   
   

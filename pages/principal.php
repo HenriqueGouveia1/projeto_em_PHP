@@ -1,4 +1,4 @@
-<?php>
+
 
 <head>
   <title>Cursos GRÁTIS Pra você!</title>
@@ -11,31 +11,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
+<style>
+h1{
+  background-color: lightgray;
+}
+</style>
+<body>  
 
-<body>
 
-  
-<div class="jumbotron text-center">
-  
-  <div class="container">
+  <div class="row">
+    <div  ><center>
     <h1>Estude na quarentena!</h1>
+      <h1>Todos os Cursos são gratuitos e não são fornecidos por nós.</h1>
+       <h1> Só queremos repassar informações úteis para as pessoas :D</h1>
+        <h1>Maioria dos cursos são pela udemy.</h1>
+      <h1>Quase todos são para iniciantes e caso goste e quiser se aprofundar, tem vários a venda!</h1>
+    </div>
     
   </div>
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div >
-      <h3>Todos os Cursos são gratuitos e não são fornecidos por nós.</h3>
-       <h3> Só queremos repassar informações úteis para as pessoas :D</h3>
-        <p>Maioria dos cursos são pela udemy.</p>
-      <p>Quase todos são para iniciantes e caso goste, tem vários a venda e muitas promoções!!</p>
-    </div>
-    <img src="https://media.tenor.com/images/09810950a6f4253604b28436264a5669/tenor.gif" alt="banana">
-  </div>
-  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
+  <br>  <br>  <br>  
 </div>
 
 </body>
 </html>
-<?>

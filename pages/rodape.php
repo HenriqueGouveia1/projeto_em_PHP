@@ -1,6 +1,7 @@
 <style>*  {
     margin:0;
     padding:0;
+    
 }
 
 html, body {height:100%;}
@@ -9,18 +10,24 @@ html, body {height:100%;}
     min-height:100%;
     position:relative;
     width:800px;
+    
 }
 
 .footer {
     position:absolute;
     bottom:0;
-    width:100%;
+    width:relative;
+    
 }
 
 .content {overflow:hidden;}
 .aside {width:200px;}
 .fleft {float:left;}
-.fright {float:right;}</style>
+.fright {float:right;}
+
+
+</style>
+
 
 <footer class="panel-footer text-center">
   <p>2020 &copy; Henrique Gouveia (Direitos abertos)</p>
