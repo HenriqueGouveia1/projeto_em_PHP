@@ -12,7 +12,7 @@
 <body>
 
 <nav>
-    <div class="menu">
+  <div class="menu">
    <ul class="nav flex-column">
     <li><a href="?pg=principal">HOME</a></li>
     <li ><a href="?pg=cursosTI">Cursos de T.I.</a></li>

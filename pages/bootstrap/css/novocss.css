@@ -65,8 +65,8 @@ a{
 h1{
   font-weight: bold;
   font-size: 40;
-  background: space;
-  
+  background: border-box;
+  border-style: double;
 }
 h2{
   font-weight: bold;

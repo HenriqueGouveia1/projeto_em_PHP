@@ -17,8 +17,8 @@
 
 
 <div class="container">
-  <div class="row">
-  <div class="col-sm-3" >
+  <div class="row"><center>
+  <div class="flex-column" >
           <br>
           <h2 id="cursoudemy">Cursos udemy:</h2>
           <p>Desenhista / AutoCAD: <a href="url">https://www.udemy.com/course/desenhista-para-topografia-nivel-1-autocad//</a></p> <br>
@@ -27,7 +27,7 @@
          
         </div>
     </div>
-    
+    </center>
       
     </div>  
   </div>

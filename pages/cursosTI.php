@@ -1,6 +1,5 @@
-
+<?php include "admin/config.inc.php";?>
 <head>
-
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,21 +15,23 @@
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4"><center>
+  <div class="row"><center>
+    <div class="flex-column">
       <h2 id="cursoudemy">Cursos udemy:</h2>
       <p>Unity: <a href="url">https://www.udemy.com/course/aprenda-unity-curso-gratuito/</a></p> <br>
       <p>Shell Script: <a href="url">https://www.udemy.com/course/conceitos-de-programacao-em-shell-script//</a></p> <br>
       <p>Unity: <a href="url">https://www.udemy.com/course/crie-um-jogo-simples-na-unity-2019-curso-gratuito//</a></p> <br>
       <p>Expressões regulares com Python 3: <a href="url">https://www.udemy.com/course/expressoes-regulares-com-python-3-curso-gratuito/</a></p> <br>
-    </div>
-    
-    <div class="col-sm-4"><center>
-      <h2 id="laureate">.</h2>
+     
+      <h2 id="laureate">Laureate_Digital</h2>
       <p>Várias áreas: <a href="url">https://laureatebrasil.blackboard.com/bbcswebdav/institution/Laureate_Digital
         /general_contents/templates_html/cursos_livres_degustacao/b2b.html</a></p> <br>
       
     </div>
+    </center>
+    </div>
+    
+   
     
       
     </div> 

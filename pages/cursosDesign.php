@@ -16,14 +16,15 @@
 <body>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-5">
+  <div class="row"><center>
+    <div class="flex-column">
       <h2 id="cursoudemy">Cursos udemy:</h2>
       <p>3 Exercícios de Motion Graphics no Blender 2.8: <a href="url">https://www.udemy.com/course/motion-graphics-exercicios-praticos-no-blender/</a></p> <br>
       <p>Curso de Design Gráfico para Mídias Sociais com o Canva: <a href="url">https://www.udemy.com/course/curso-de-design-grafico-para-midias-sociais-com-o-canva/</a></p> <br>
      
   </div>
 </div>
+</center>
 
 </div>
 </body>
