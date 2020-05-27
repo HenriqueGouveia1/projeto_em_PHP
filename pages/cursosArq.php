@@ -25,6 +25,11 @@
           <p>AutoCAD 2019 - Curso Básico: <a href="url">https://www.udemy.com/course/autocad-2019-curso-basico-completo/</a></p> <br>
           <p>SketchUp para Interiores - Websérie Gratuita: <a href="url">https://www.udemy.com/course/sketchup-para-interiores/ </a></p>
          
+          <h2 id="outros">OUTROS</h2>
+        <?php while($dados=mysqli_fetch_array($consultaarq)) {?>
+          <p><?php echo $dados["nome"];?></p>
+          <p><?php echo $dados["link"];?></p>
+          <?php }?>
         </div>
     </div>
     </center>

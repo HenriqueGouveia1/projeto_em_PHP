@@ -1,4 +1,4 @@
-<?php include "admin/config.inc.php";?>
+<?php include "conecta.inc.php";?>
 <head>
   <title>Cursos GRÁTIS Pra você!</title>
   <meta charset="utf-8">
@@ -10,10 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-
-
 <div class="container">
   <div class="row"><center>
     <div class="flex-column">
@@ -26,18 +23,17 @@
       <h2 id="laureate">Laureate_Digital</h2>
       <p>Várias áreas: <a href="url">https://laureatebrasil.blackboard.com/bbcswebdav/institution/Laureate_Digital
         /general_contents/templates_html/cursos_livres_degustacao/b2b.html</a></p> <br>
+        <h2 id="outros">OUTROS</h2>
+        <?php while($dados=mysqli_fetch_array($consulta)) {?>
+          <p><?php echo $dados["nome"];?></p>
+          <p><?php echo $dados["link"];?></p>
       
+        <?php }?>
     </div>
     </center>
     </div>
-    
-   
-    
-      
     </div> 
   </div>
-  
-  
- 
+
 </body>
 </html>

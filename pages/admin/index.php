@@ -1,67 +1,53 @@
-<?php include "config.inc.php";?>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
- <header class=page-header>
-    <center>
-        <h1>
-        PAINEL ADMINISTRATIVO
-        </h1>
-    </center>
-  </header> 
-  
-<style>
-body{
-  background-image: url(https://static.coindesk.com/wp-content/uploads/2017/08/Server-room.jpg) ;
-}
-  h1{
-      background-color: lightgray;
-  }
-  a{
-    font-family: sans-serif;
-  }
-nav{
-  width: 200px;
-  height: auto; /* only for demonstration, should be removed */
-  padding: 20px;
-  font-style: bold;
-  background-color: lightgray;
-}
-nav a{
-  background-color: transparent;
-  opacity: inherit;
-  color: #000;
-  font-weight: bold;
-}
-</style>
+<?php
+include('conexao.php'); session_start();?>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+   
+</head>
 
-<body>
- <div class="row"> 
-            <div class="menu">
-              <nav>
-                 <ul class="nav flex-column">
-                 <center>
-                    <li><a href="index.php">Home</a></li>
-                    <li class="active"><a href="?pg=inserirTI">Inserir Novo Curso TI</a></li>
-                    <li class="active"><a href="?pg=listar">Listar Contatos</a></li>
-                  </center>
-                </ul>
-                </nav>
+<body><center>
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <h3 class="title has-text-grey">Login</h3>
+                   <?php
+                   if(isset($_SESSION['nao_autenticado'])):
+                   ?>
+                    <div class="notification is-danger">
+                      <p>ERRO: Usuário ou senha inválidos.</p>
+                    </div>
+                    <?php
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
+                    ?>
+                    <div class="box">
+                        <form action="login.php" method="POST">
+                            <div class="field">
+                                <div class="control">
+                                    <input name="user" name="text" class="input is-large" placeholder="Seu usuário" autofocus="">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input name="senha" class="input is-large" type="password" placeholder="Sua senha">
+                                </div>
+                            </div>
+                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 </body>
-	
-<div class='container'>
-	<?php
-	# área de conteúdo
-	if(empty($_SERVER["QUERY_STRING"])){
-	      
-	}else{
-	        $pg = $_GET['pg'];
-	        include_once("$pg.php");
-	}
-	?>
-	</div>
+
+</html>

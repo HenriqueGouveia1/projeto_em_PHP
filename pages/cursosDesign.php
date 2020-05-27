@@ -22,6 +22,11 @@
       <p>3 Exercícios de Motion Graphics no Blender 2.8: <a href="url">https://www.udemy.com/course/motion-graphics-exercicios-praticos-no-blender/</a></p> <br>
       <p>Curso de Design Gráfico para Mídias Sociais com o Canva: <a href="url">https://www.udemy.com/course/curso-de-design-grafico-para-midias-sociais-com-o-canva/</a></p> <br>
      
+      <h2 id="outros">OUTROS</h2>
+        <?php while($dados=mysqli_fetch_array($consultades)) {?>
+          <p><?php echo $dados["nome"];?></p>
+          <p><?php echo $dados["link"];?></p>
+          <?php }?>
   </div>
 </div>
 </center>
