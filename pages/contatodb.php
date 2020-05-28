@@ -8,11 +8,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <title>Contato</title>
 </head>
+
 <style>
 h2{
 	color: BLACK;
 }
 </style>
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -30,7 +32,7 @@ h2{
 			$assunto = $_POST['assunto'];
 			$mensagem = $_POST['mensagem'];
 
-			$dados = "INSERT INTO faleconosco (nome, email,telefone,assunto,mensagem) VALUES
+			$dados = "INSERT INTO contatenos (nome, email,telefone,assunto,mensagem) VALUES
 			 ('$nome','$email','$telefone','$assunto','$mensagem')";
 			
 			$query = mysqli_query($conexao,$dados);
@@ -41,9 +43,7 @@ h2{
 				echo "<center><h4>Não foi possível enviar o e-mail. 
 				<a href=index.php?pg=faleconosco>Tente novamente.</a></h4></center>";
 		    }
-		?>
-		
-		 
+		?> 
 		</div>
 		
 	  </div>

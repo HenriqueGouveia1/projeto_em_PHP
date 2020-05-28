@@ -14,7 +14,7 @@ a{
 $nome = $_POST['nome'];
 $link = $_POST['link'];
 
-$sql = "INSERT INTO cursosti VALUES 
+$sql = "INSERT INTO cursoti VALUES 
 ('$nome', '$link')";
 
 //echo $sql;

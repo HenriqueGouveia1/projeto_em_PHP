@@ -26,7 +26,7 @@
         <h2 id="outros">OUTROS</h2>
         <?php while($dados=mysqli_fetch_array($consulta)) {?>
           <p><?php echo $dados["nome"];?></p>
-          <p><?php echo $dados["link"];?></p>
+          <a><?php echo $dados["link"];?></a>
       
         <?php }?>
     </div>

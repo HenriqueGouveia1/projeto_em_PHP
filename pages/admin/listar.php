@@ -1,6 +1,6 @@
 <?php
 include "conecta.inc.php";
-$busca = "SELECT id,nome,email,telefone,assunto,mensagem  * from faleconosco order by id";
+$busca = "SELECT id,nome,email,telefone,assunto,mensagem  * from contatenos order by id";
 ?>
 
 <table border="1" style="background-color:lightgray;">
