@@ -23,7 +23,7 @@ $insert = mysqli_query($conexao, $sql);
 
 if($insert){
     echo "<center><h3>Página cadastrada com sucesso!</h3><br>";
-    echo "<a href='?pg=inserirTI'>Cadastrar Novamente</a><br>";
+    echo "<a href='?pg=inserir'>Cadastrar Novamente</a><br>";
     echo "<a href='?pg=listar'>Listar contatos</a>";
 }else{
   echo "Ocorreu um erro ao cadastrar no banco de dados. <a href='?pg=inserirTI'>Tente Novamente</a>";

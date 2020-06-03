@@ -21,15 +21,16 @@
   <div class="flex-column" >
           <br>
           <h2 id="cursoudemy">Cursos udemy:</h2>
-          <p>Desenhista / AutoCAD: <a href="url">https://www.udemy.com/course/desenhista-para-topografia-nivel-1-autocad//</a></p> <br>
-          <p>AutoCAD 2019 - Curso Básico: <a href="url">https://www.udemy.com/course/autocad-2019-curso-basico-completo/</a></p> <br>
-          <p>SketchUp para Interiores - Websérie Gratuita: <a href="url">https://www.udemy.com/course/sketchup-para-interiores/ </a></p>
+          <p >Desenhista / AutoCAD: <a style="color:blue;font-size:18px; href="url">https://www.udemy.com/course/desenhista-para-topografia-nivel-1-autocad//</a></p> <br>
+          <p>AutoCAD 2019 - Curso Básico: <a style="color:blue;font-size:18px; href="url">https://www.udemy.com/course/autocad-2019-curso-basico-completo/</a></p> <br>
+          <p>SketchUp para Interiores - Websérie Gratuita: <a  style="color:blue;font-size:18px;"width: 205px; href="url">https://www.udemy.com/course/sketchup-para-interiores/ </a></p>
          
           <h2 id="outros">OUTROS</h2>
         <?php while($dados=mysqli_fetch_array($consultaarq)) {?>
-          <p><?php echo $dados["nome"];?></p>
+          <p><?php  echo $dados["nome"];?></p>
           <a><?php echo $dados["link"];?></a>
           <?php }?>
+          <br> <br> <br> <br> <br>
         </div>
     </div>
     </center>

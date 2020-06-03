@@ -15,7 +15,7 @@ $busca = "SELECT id,nome,email,telefone,assunto,mensagem  * from contatenos orde
     </tr>
     
     <?php while($dados=mysqli_fetch_array($query)) {?>
-        <tr >
+        <tr>
         <td><?php echo $dados["id"];?></td>
         <td><?php echo $dados['nome'];?></td>
         <td><?php echo $dados['email'];?></td>

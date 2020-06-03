@@ -15,17 +15,17 @@
   <div class="row"><center>
     <div class="flex-column">
       <h2 id="cursoudemy">Cursos udemy:</h2>
-      <p>Unity: <a href="url">https://www.udemy.com/course/aprenda-unity-curso-gratuito/</a></p> <br>
-      <p>Shell Script: <a href="url">https://www.udemy.com/course/conceitos-de-programacao-em-shell-script//</a></p> <br>
-      <p>Unity: <a href="url">https://www.udemy.com/course/crie-um-jogo-simples-na-unity-2019-curso-gratuito//</a></p> <br>
-      <p>Expressões regulares com Python 3: <a href="url">https://www.udemy.com/course/expressoes-regulares-com-python-3-curso-gratuito/</a></p> <br>
+      <p>Unity: <a style="color:blue;font-size:18px;width: 205px;" href="url">https://www.udemy.com/course/aprenda-unity-curso-gratuito/</a></p> <br>
+      <p>Shell Script: <a style="color:blue;font-size:18px;width: 205px;" href="url">https://www.udemy.com/course/conceitos-de-programacao-em-shell-script//</a></p> <br>
+      <p>Unity: <a style="color:blue;font-size:18px;width: 205px;" href="url">https://www.udemy.com/course/crie-um-jogo-simples-na-unity-2019-curso-gratuito//</a></p> <br>
+      <p>Expressões regulares com Python 3: <a style="color:blue;font-size:18px;width: 205px;" href="url">https://www.udemy.com/course/expressoes-regulares-com-python-3-curso-gratuito/</a></p> <br>
      
       <h2 id="laureate">Laureate_Digital</h2>
-      <p>Várias áreas: <a href="url">https://laureatebrasil.blackboard.com/bbcswebdav/institution/Laureate_Digital
+      <p>Várias áreas: <a style="color:blue;font-size:18px;width: 205px;" href="url">https://laureatebrasil.blackboard.com/bbcswebdav/institution/Laureate_Digital
         /general_contents/templates_html/cursos_livres_degustacao/b2b.html</a></p> <br>
         <h2 id="outros">OUTROS</h2>
         <?php while($dados=mysqli_fetch_array($consulta)) {?>
-          <p><?php echo $dados["nome"];?></p>
+          <p><?php  echo $dados["nome"];?></p>
           <a><?php echo $dados["link"];?></a>
       
         <?php }?>
